@@ -1,0 +1,268 @@
+
+* {
+    box-sizing: border-box;
+}
+
+/* ################################
+               body
+   ################################ */
+body {
+    
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    
+}
+
+header{
+    background-color: #EAC926;
+    margin-bottom: -16px;
+    
+}
+
+.logo{
+    box-sizing: border-box;
+    height: 10vh;
+}
+
+.logo .mercado-liebre{    
+    width: 45vw;
+    height: 10vh;
+    margin: 5px;
+    box-sizing: border-box;
+    background-position: left top;
+}
+
+p{
+    font-size: 12px;;
+}
+.buscador{
+    margin: 3px; 
+}
+.lupa{
+        border-width: 1px;
+        border-style: solid;
+        font-size: 14px;
+        background-color:white ;
+        border-image: initial;
+        border-radius: 15%; 
+        padding: 2px;
+        margin-bottom: 5px;
+
+}
+
+#compra{
+    
+    /* padding: 1rem; */
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.loginNav{
+    padding-bottom: 17px;
+
+}
+
+.burger-menu{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.burger{
+    color: white;
+    font-size: 20px;
+    background-color:#1259c3 ;
+    border-radius: 15%;
+    padding: 10px;
+    margin-bottom: 20px;   
+}
+
+.banner{
+    width: 100%;
+    height: 0%;
+    margin-bottom: -11px;
+    
+}
+.banner .bannPic{
+    width: 100%;
+    height: 0%;
+
+}
+
+/* ################################
+               sections 
+   ################################ */
+main {
+    
+    background-color: #ebebeb;
+    margin: auto;
+    margin-top: 5px;
+    
+}
+section{
+    font-size: 24px;
+    width: 90vw;
+    margin: auto;
+    padding-bottom:10px;
+}
+
+section .titSection{
+    margin: 7px;
+}
+
+section .precio{
+    font-size: 18px;
+}
+
+section .descuento{
+    font-size: 16px;
+    color: #40d505;
+    font-weight: bold;
+}
+
+section .descripcion{
+    font-size: 16px;
+    
+}
+
+
+.articulo{
+    
+    margin: 10px;
+    background-color: #ebebeb;
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+.articulo .im{
+    text-align: center;
+    background-color: white;
+
+}
+
+img{
+    height: 250px;
+    width: 250px;
+}
+
+.articulo .pr{
+    border-color: #ebebeb;
+    border-style: solid; 
+    border-width: 1px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.pr .prBottom{
+    margin-bottom:20px
+}
+
+.pr p{
+    margin:2px;
+    
+}
+
+
+.articulo .pr .boxtruck .truck{
+    color: #39b543;
+    font-size: 15px;
+    border-color: #39b543;
+    position: relative;
+    --fa-border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 5px;
+    
+}
+/* ################################
+               footer
+   ################################ */
+footer{
+    background-color: white;
+    margin: auto;
+    
+}
+
+.secFoot{
+    width: 90vw;
+    margin: auto;
+    background-color: #ebebeb;
+/* 
+    border-color: #ebebeb;
+    border-style: solid; 
+    border-width: 1px; */
+}
+
+.foot{ 
+/*     margin: 10px;
+    margin-top: 0px; */
+    background-color: white;
+    text-align: center;
+    
+
+}
+
+.fav{
+    padding: 10px;
+    background-color: white;
+      
+}
+ 
+.parFoot p{
+    line-height: 22px;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    
+    
+}
+
+.imgFoot{
+    padding:10px;
+    margin-top: 40px;
+}
+
+#strongg{
+    font-size: 20px;
+}
+
+.credit-card{
+    color: #1259c3;
+    
+}
+
+.divCopy{
+    padding-bottom: 2px;
+    padding-left: 15px;
+    text-align: left;
+
+    margin-top: 25px;
+}
+
+
+
+@media (max-width: 360px){
+
+    .pr{
+        display: none;
+    }
+
+    .loginNav{
+        display: none;
+    }
+
+}
+
+@media (min-width: 361px){
+    .articulo{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
+    }
+
+    .burger-menu{
+        display: none;
+    }
+ 
+}
