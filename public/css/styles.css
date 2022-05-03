@@ -6,7 +6,7 @@
 /* ################################
                body
    ################################ */
-   body {
+body {
     
     font-family: 'Roboto', sans-serif;
     margin: auto;
@@ -17,26 +17,26 @@
                header
    ################################ */
 
-   .main-header{
-       background-color: #EAC926;
-       padding: 20px;
-   }
+.main-header{
+    background-color: #EAC926;
+    padding: 20px;
+}
 
-   .hamburguer-button {
-       background-color: #1259c3;
-       color: #ffffff;
-        display: block;
-        max-width: 50px;
-        padding: 15px 0px;
-        border-radius: 8px;
-        text-align: center;
-        font-size: 18px;
-        margin: auto;
-   }
+.hamburguer-button {
+    background-color: #1259c3;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
 
-   .logo{
-       width: 200px;
-   }
+.logo{
+    width: 200px;
+}
 
 .copy-header{
     font-weight: 400;
