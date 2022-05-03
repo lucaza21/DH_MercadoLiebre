@@ -3,6 +3,8 @@
     box-sizing: border-box;
 }
 
+
+
 /* ################################
                body
    ################################ */
@@ -13,70 +15,121 @@ body {
     
 }
 
-header{
+/* ################################
+               CLASE
+               header
+   ################################ */
+
+   .main-header{
     background-color: #EAC926;
-    margin-bottom: -16px;
-    
+    padding: 20px;
+}
+
+.hamburguer-button {
+    background-color: #1259c3;
+    color: #ffffff;
+     display: block;
+     max-width: 50px;
+     padding: 15px 0px;
+     border-radius: 8px;
+     text-align: center;
+     font-size: 18px;
+     margin: auto;
 }
 
 .logo{
-    box-sizing: border-box;
-    height: 10vh;
+    width: 200px;
 }
 
-.logo .mercado-liebre{    
-    width: 45vw;
-    height: 10vh;
-    margin: 5px;
-    box-sizing: border-box;
-    background-position: left top;
+.copy-header{
+ font-weight: 400;
+ text-align: center;
 }
 
-p{
-    font-size: 12px;;
-}
-.buscador{
-    margin: 3px; 
-}
-.lupa{
-        border-width: 1px;
-        border-style: solid;
-        font-size: 14px;
-        background-color:white ;
-        border-image: initial;
-        border-radius: 15%; 
-        padding: 2px;
-        margin-bottom: 5px;
-
+.main-navbar{
+ text-decoration: none;
+ color: #222222;
+ display: inline-block;
+ padding: 5px 0px;
+ font-size: 17px;
 }
 
-#compra{
-    
-    /* padding: 1rem; */
-    text-align: center;
-    margin-bottom: 20px;
+.main-navbar ul {
+ list-style: none;
+ margin:0;
+ padding:0;
+}
+
+@media(min-width: 768px){
+ .main-header-top-bar{
+     border: dotted 2px red;
+     display: flex;
+     justify-content: space-between;
+ }
+ .copy-header{
+     max-width: 350px;
+     text-align: right;
+ }
+ .hamburguer-button{
+     display: none;
+ }
+ .main-navbar{
+     border: dotted 2px red;
+     display: flex;
+     justify-content: space-between;
+
+ }
+ 
+ .main-navbar ul{
+     display: flex;
+ }
+
+ .main-navbar li{
+     margin: 0px 15px;
+ }
+}
+
+@media(min-width: 1200px){
+ .main-header-top-bar,.main-navbar {
+     max-width: 1200px;
+     border: olive solid;
+     margin: auto;
+ }
+
+ .main-header-top-bar{
+     align-items: center;
+
+ }
+
+ .main-navbar{
+     margin-top: 50px;
+ }
+
+ .main-navbar li{
+    margin: 0px 10px; 
+ }
+
+ .main-navbar a{
+     font-size: 19px; 
+  }
+
+  .copy-header{
+      margin: 0;
+     max-width: none;
+     font-size: 18px;
+     font-weight: 400;
+     background-color: salmon;
+ }
+
+ .logo{
+     width:250px;
+ }
 
 }
 
-.loginNav{
-    padding-bottom: 17px;
-
-}
-
-.burger-menu{
-    text-align: center;
-    margin-bottom: 16px;
-}
-
-.burger{
-    color: white;
-    font-size: 20px;
-    background-color:#1259c3 ;
-    border-radius: 15%;
-    padding: 10px;
-    margin-bottom: 20px;   
-}
-
+/* ################################
+               banner
+   ################################ */
 .banner{
     width: 100%;
     height: 0%;
