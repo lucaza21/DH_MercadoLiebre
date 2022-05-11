@@ -1,0 +1,98 @@
+.titulo-register{
+    margin-left:15px;
+}
+
+.create-form-register{
+    padding: 20px 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.control-formulario{ 
+    margin-bottom: 15px;     
+}
+
+.control-formulario p{
+    font-size: 14px;
+}
+
+.control-formulario label{
+    font-style: italic;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#name-register, #userName-register,#birthdate-register,
+#domicilio-register, #contraseña-register,
+#confirmContraseña-register,#browsers-register, #contraseña-register{
+    border-radius: 5px;
+    border: 1px white;
+    height: 30px;
+    width: 45%;
+    margin-bottom: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+   
+}
+
+input #checkbox-register{
+    font-size: 10px;
+    background-color: red;
+}
+
+/* .container{
+    font-size: 20px;
+   
+}
+ */
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+.boton-formulario{
+    background-color: rgb(12, 126, 82);
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.delMain-register{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    
+}
+
+.reggister{
+    text-align: center;
+}
+
+
+
+ .container-register {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.container{
+    width: 20%;
+    text-align: left;
+}
+input[type="checkbox"] {
+    width: 24px;
+    height: 30px;
+    vertical-align: bottom;
+
+}
+
+h4{
+    margin-bottom: 10px;
+}
+

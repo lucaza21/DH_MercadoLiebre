@@ -1,0 +1,538 @@
+
+* {
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+/* ################################
+               CLASE
+   ################################ */
+
+   .main-header{
+        background-color: #EAC926;
+        padding: 20px;
+   }
+
+   .main-header-top-bar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+   }
+
+   .hamburguer-button {
+        background-color: #1259c3;
+        color: #ffffff;
+        display: block;
+        max-width: 50px;
+        padding: 15px 0px;
+        border-radius: 8px;
+        text-align: center;
+        font-size: 18px;
+        margin: auto;
+   }
+
+   .claseLogo{
+       display: inline-block;
+       width: 45%;
+       height: 50px;
+   }
+   .logo{
+       width: 100%;
+       height: 100%;
+   }
+ 
+   .claseH2 p{
+       /* background-color: #fff; */
+       text-align: center;
+   }
+
+
+   .buscador{
+       display: flex;
+       flex-wrap: nowrap;
+       width: 33%;
+       align-items: center;
+       justify-content: center;
+       position: relative;
+   }
+   .buscador-box{
+    border:none;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+
+    padding: 15px 15px 15px 35px;
+ 
+  }
+
+   .lupa{
+    margin-left: 15px;
+    border-left-style: groove ;
+    /* border-left: solid 1px black; */
+    position: absolute;
+    right: 5px;
+    padding:5px;
+
+   }
+
+
+.copy-header{
+    font-weight: 400;
+    text-align: center;
+}
+
+.main-navbar{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0px;
+    font-size: 17px;
+    display: none;
+}
+
+.main-navbar ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+/* ################################
+               body
+   ################################ */
+body {
+    
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    
+}
+
+.banner{
+    width: 100%;
+    height: 0%;
+    margin-bottom: -11px;
+    
+}
+.banner .bannPic{
+    width: 100%;
+    height: 0%;
+
+}
+
+/* ################################
+               sections 
+   ################################ */
+main {
+    
+    background-color: #ebebeb;
+    margin: auto;
+    margin-top: 5px;
+}
+section{
+    font-size: 24px;
+    width: 90vw;
+    margin: auto;
+    /* padding-bottom:10px ; */
+}
+
+section .titSection{
+    margin: 7px;
+}
+
+section .precio{
+    font-size: 18px;
+}
+section .boxtruck{
+    order: 1;
+    
+}
+
+section .descuento{
+    font-size: 16px;
+    color: #40d505;
+    font-weight: bold;
+}
+
+ section .descripcion{
+    font-size: 11px;
+    display: none;
+ }
+
+
+/* section:hover .pr .descripcion{
+     display: block;
+     }
+ */
+
+.articulo{
+    
+    margin: 10px;
+    background-color: #ebebeb;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.articulo .im{
+    text-align: center;
+    background-color: white;
+}
+
+.articulo:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+main img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.articulo .pr{
+   /*  border-color: #ebebeb;
+    border-style: solid; 
+    border-width: 1px; */
+    border-top: solid 1px;
+    border-top-color: #ebebeb;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.pr .prBottom{
+    margin-bottom:20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.pr p{
+    margin:2px;
+}
+
+.articulo .pr .boxtruck .truck{
+    color: #39b543;
+    font-size: 15px;
+    border-color: #39b543;
+    position: relative;
+    --fa-border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 5px; 
+}
+
+main section i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    right: 20px;
+    top: -25px;
+    margin-bottom: 15px;
+   } 
+   
+   main section .boxtruck .truck{
+    transition: transform 1s;
+   }
+
+   .articulo .pr .boxtruck .truck:hover{
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transform: rotateZ(-90deg);
+   }
+ 
+
+/* ################################
+               footer
+   ################################ */
+footer{
+    background-color: white;
+    margin: auto;
+    
+}
+
+.secFoot{
+    width: 90vw;
+    margin: auto;
+    background-color: #ebebeb;
+}
+
+.foot{ 
+
+    background-color: white;
+    text-align: center;
+}
+
+.fav{
+    padding: 10px;
+    background-color: white;    
+}
+ 
+.parFoot p{
+    line-height: 22px;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;    
+}
+
+.imgFoot{
+    padding:10px;
+    margin-top: 40px;
+}
+
+#strongg{
+    font-size: 20px;
+}
+
+.credit-card{
+    color: #1259c3;
+   
+}
+
+.divCopy{
+    margin-bottom: 15px;
+    padding-left: 15px;
+    text-align: left;
+    margin-top: 25px;
+}
+
+
+
+@media (min-width: 425px){
+
+    .main-navbar{
+        /* border: dotted 2px red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-size: 17px;
+    }
+
+    .left-navbar{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-content: stretch;
+        align-items: center;
+    }
+
+    .left-navbar li{
+        width: 70%;
+        text-align: center;
+        font-size: 13px;
+        
+    }
+    .rigth-navbar{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-content: stretch;
+        align-items: center;
+    }
+    .rigth-navbar li{
+        width: 70%;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .hamburguer-button{
+        display: none;
+    }
+
+    section .articulos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .articulo{
+        width: 40%;
+    }
+
+    .articulo:hover .descripcion{
+        display: block;
+    }
+     
+}
+
+
+
+@media(min-width: 768px){
+       
+    .main-header-top-bar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .copy-header{
+        max-width: 350px;
+        text-align: right;
+    }
+    .hamburguer-button{
+        display: none;
+    }
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        
+    }
+
+    .left-navbar{
+        width: 45%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: stretch;
+        align-items: center;
+    }
+
+    .left-navbar li{
+        width: 24%;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    #ayuda{
+        text-align: left;
+  
+    }
+    .rigth-navbar{
+        width: 36%;
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        align-content: stretch;
+        align-items: center;
+    }
+    .rigth-navbar li{
+        width: 30%;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .claseLogo, .input-wrapper, .claseH2{
+        width:33%;
+        font-size: 12px;
+        /* border: dotted blue; */ 
+    }
+    .claseLogo{
+        height: 80px;
+    }
+
+    .articulo{
+        width: 20%;
+    }
+}
+
+@media(min-width: 1200px){
+    .main-header-top-bar,.main-navbar {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .main-header-top-bar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .main-navbar{
+        margin-top: 20px;
+        
+    }
+
+
+    .main-navbar a{
+        font-size: 15px; 
+        
+     }
+
+    .claseLogo, .input-wrapper, .claseH2{
+        width:33%;
+         font-size: 15px; 
+    }
+
+    .claseLogo{
+        height: 80px;
+    }
+
+
+    .left-navbar{
+        width: 45%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: stretch;
+        align-items: center;
+    
+    }
+
+    .left-navbar li{
+        width: 25%;
+        text-align: center;
+    }
+    .rigth-navbar{
+        width: 36%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-content: stretch;
+        align-items: flex-start;
+    }
+    .rigth-navbar li{
+        width: 33%;
+        text-align: center;
+    }
+
+    .articulo{
+        width: 20%;
+    }
+
+     .articulo:hover .descripcion{
+        display: block;
+    }
+   
+   
+    .foot{
+        
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+
+    .fav{
+        width: 33%;
+        font-size: 13px;
+        
+    }
+
+    .credit-card:hover{
+        color:#EAC926;
+    }
+
+    #strongg{
+        font-size: 15px;
+    }
+    .parFoot p{
+        font-size: 13px;
+    }
+    .divCopy{
+        width: 100%;
+        font-size: 13px;
+    }
+
+
+}
