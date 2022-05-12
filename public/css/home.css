@@ -1,3 +1,4 @@
+
 * {
     margin: 0px;
     padding: 0px; 
@@ -91,21 +92,18 @@
     padding: 5px 0px;
     font-size: 17px;
     display: none;
-
-    
 }
 
 .main-navbar ul {
     list-style: none;
     margin:0;
     padding:0;
-    
 }
-.main-navbar ul a{
+
+.main-navbar ul a {
     text-decoration:none;
     color:black;
 }
-
 
 /* ################################
                body
@@ -441,14 +439,13 @@ footer{
         width: 20%;
     }
 
-
     .foot{
         
         display: flex;
         flex-wrap: wrap;
  
     }
-
+    
     .fav{
         width: 33%;
         font-size: 13px;
@@ -541,35 +538,5 @@ footer{
         display: block;
     }
    
-   /*
-    .foot{
-        
-        display: flex;
-        flex-wrap: wrap;
-        
-        
-    }
-
-     .fav{
-        width: 33%;
-        font-size: 13px;
-        
-    }
-
-    .credit-card:hover{
-        color:#EAC926;
-    }
-
-    #strongg{
-        font-size: 15px;
-    }
-    .parFoot p{
-        font-size: 13px;
-    }
-    .divCopy{
-        width: 100%;
-        font-size: 13px;
-    }
- */
 
 }
