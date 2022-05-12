@@ -100,6 +100,11 @@
     padding:0;
 }
 
+.main-navbar ul a{
+    text-decoration:none;
+    color:black;
+}
+
 /* ################################
                body
    ################################ */
@@ -433,6 +438,35 @@ footer{
     .articulo{
         width: 20%;
     }
+
+    .foot{
+        
+        display: flex;
+        flex-wrap: wrap;
+ 
+    }
+    
+    .fav{
+        width: 33%;
+        font-size: 13px;
+        
+    }
+
+    .credit-card:hover{
+        color:#EAC926;
+    }
+
+    #strongg{
+        font-size: 15px;
+    }
+    .parFoot p{
+        font-size: 13px;
+    }
+    .divCopy{
+        width: 100%;
+        font-size: 13px;
+    }
+
 }
 
 @media(min-width: 1200px){
@@ -504,7 +538,7 @@ footer{
         display: block;
     }
    
-   
+   /*
     .foot{
         
         display: flex;
@@ -513,7 +547,7 @@ footer{
         
     }
 
-    .fav{
+     .fav{
         width: 33%;
         font-size: 13px;
         
@@ -533,6 +567,6 @@ footer{
         width: 100%;
         font-size: 13px;
     }
-
+ */
 
 }
